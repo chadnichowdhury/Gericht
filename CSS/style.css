@@ -1,0 +1,42 @@
+h1 {
+    color: var(--DCCA87, #DCCA87);
+    font-family: "Cormorant Upright";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 117px */
+    letter-spacing: 3.6px;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: var(--DCCA87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: "Cormorant Upright";
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%; /* 83.2px */
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+}
+
+p {
+    color: var(--AAAAAA, #AAA);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}
+
+.btn {
+    padding: 8px 32px;
+    background: var(--DCCA87, #DCCA87);
+    border: 1px solid #DCCA87;
+    color: #0C0B08;
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}

@@ -9,6 +9,10 @@ module.exports = {
         'sub': ["Cormorant Upright", "serif"],
       },
 
+      container: {
+        center: true,
+      },
+
       backgroundImage: {
         'image': "url('./Images/Footer-bg.png')",
       },

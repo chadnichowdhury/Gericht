@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gerícht</title>
-  <link rel="stylesheet" href="../CSS/slick.css">
-  <link rel="stylesheet" href="../CSS/all.min.css">
+  <link rel="stylesheet" href="./CSS/slick.css">
+  <link rel="stylesheet" href="./CSS/all.min.css">
   <link href="./output.css" rel="stylesheet">
-  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="./CSS/style.css">
   <!-- google fonts (common) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
      <nav>
         <div class="navbar bg-[#0C0C0C] flex justify-center items-center px-[120px] py-8">
             <div class="container flex justify-between w-[100%] items-center">
-                <div class="logo"><a href="index.html"><img src="../Images/Gerícht-logo.png" alt=""></a></div>
+                <div class="logo"><a href="index.html"><img src="./Images/Gerícht-logo.png" alt=""></a></div>
                 <div class="menu">
                     <ul class="flex gap-x-8 justify-center items-center font-common text-base leading-7 tracking-[0.64px] text-white">
                         <li><a href="index.html">Home</a></li>
@@ -61,14 +61,124 @@
     <!-- navbar -->
 
     <!-- body -->
-     <section class="py-52">
 
+    <!-- blog -->
+     <section id="blog" class="py-[152px] px-[310px] bg-[#0c0c0c]">
+        <div class="main relative flex flex-col gap-y-16 justify-center items-center">
+            <div class="title flex flex-col gap-x-2 justify-center items-center">
+                <span class="text-white text-[23px] font-bold leadinng-[130%] tracking-[0.92px] capitalize font-sub">Blogs</span>
+                    <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="10" viewBox="0 0 40 10" fill="none">
+                            <path d="M33.5016 9.5C37.0849 9.5 40 7.48129 40 4.99995C40 2.51861 37.0849 0.5 33.5016 0.5C30.1122 0.5 27.3221 2.30637 27.03 4.6018H22.3529V3.6552L0 3.6552V6.34446L22.353 6.34446V5.39798H27.0301C27.3223 7.69352 30.1122 9.5 33.5016 9.5ZM21.4898 5.54839L0.863293 5.54839V4.45161H21.4898V5.54839ZM27.8662 4.99995C27.8662 2.95778 30.3944 1.2964 33.5017 1.2964C36.6091 1.2964 39.1372 2.95778 39.1372 4.99995C39.1372 7.04222 36.6091 8.7037 33.5017 8.7037C30.3944 8.7037 27.8662 7.04222 27.8662 4.99995Z" fill="#DCCA87"/>
+                          </svg>
+                    </div>
+                    <h2>Gerícht updates</h2>
+            </div>
+            <div class="blog_cards flex gap-x-8">
+                <div class="child max-w-[412px]">
+                    <div class="img">
+                        <img src="./Images/blogcard_img-1.png" alt="">
+                    </div>
+                    <div class="text flex flex-col gap-y-8 mt-6">
+                        <div class="flex justify-between items-center">
+                            <p>16 Apr 2021</p>
+                            <p>- Annalisa L</p>
+                        </div>
+                        <a href="">
+                            <h3 class="hover:underline">
+                                tips for prepping and caring for your grill
+                            </h3>
+                        </a>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                        <a href="#" class="text-base text-[#DCCA87] font-sub font-bold leading-[175%] tracking-[0.64px]">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="child max-w-[412px]">
+                    <div class="img">
+                        <img src="./Images/blogcard_img-2.png" alt="">
+                    </div>
+                    <div class="text flex flex-col gap-y-8 mt-6">
+                        <div class="flex justify-between items-center">
+                            <p>16 Apr 2021</p>
+                            <p>- Annalisa L</p>
+                        </div>
+                        <a href="">
+                            <h3 class="hover:underline">
+                                tips for prepping and caring for your grill
+                            </h3>
+                        </a>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                        <a href="#" class="text-base text-[#DCCA87] font-sub font-bold leading-[175%] tracking-[0.64px]">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="child max-w-[412px]">
+                    <div class="img">
+                        <img src="./Images/blogcard_img-3.png" alt="">
+                    </div>
+                    <div class="text flex flex-col gap-y-8 mt-6">
+                        <div class="flex justify-between items-center">
+                            <p>16 Apr 2021</p>
+                            <p>- Annalisa L</p>
+                        </div>
+                        <a href="">
+                            <h3 class="hover:underline">
+                                tips for prepping and caring for your grill
+                            </h3>
+                        </a>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                        <a href="#" class="text-base text-[#DCCA87] font-sub font-bold leading-[175%] tracking-[0.64px]">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn w-auto">View More</button>
+            </div>
+            <div class="round_animation w-[146px] absolute top-full left-[100%] translate-x-[72px] translate-y-[-23px] z-20">
+                <img src="./Images/rotate_animation.png" alt="" class="animate-rotate w-full">
+            </div>
+        </div>
      </section>
+    <!-- blog -->
+
+    <!-- photo gallery -->
+    <section id="photo_gallery" class="bg-[#040404] pb-[113px]">
+        <div class="main pl-[310px] py-32 relative bg-image bg-cover">
+            <div class="relative z-20 flex gap-x-16">
+                <div class="left_text">
+                    <span class="text-white text-[23px] font-bold leadinng-[130%] tracking-[0.92px] capitalize font-sub">Instagram</span>
+                    <div class="my-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="10" viewBox="0 0 40 10" fill="none">
+                            <path d="M33.5016 9.5C37.0849 9.5 40 7.48129 40 4.99995C40 2.51861 37.0849 0.5 33.5016 0.5C30.1122 0.5 27.3221 2.30637 27.03 4.6018H22.3529V3.6552L0 3.6552V6.34446L22.353 6.34446V5.39798H27.0301C27.3223 7.69352 30.1122 9.5 33.5016 9.5ZM21.4898 5.54839L0.863293 5.54839V4.45161H21.4898V5.54839ZM27.8662 4.99995C27.8662 2.95778 30.3944 1.2964 33.5017 1.2964C36.6091 1.2964 39.1372 2.95778 39.1372 4.99995C39.1372 7.04222 36.6091 8.7037 33.5017 8.7037C30.3944 8.7037 27.8662 7.04222 27.8662 4.99995Z" fill="#DCCA87"/>
+                          </svg>
+                    </div>
+                    <h2>Photo Gallery</h2>
+                    <p class="max-w-[491px] my-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
+                    </p>
+                    <button class="btn">View More</button>
+                </div>
+                <div class="right_view absolute">
+                    
+                </div>
+            </div>
+            <div class="round_animation w-[146px] absolute top-full left-[106px] translate-y-[-40%] z-20">
+                <img src="./Images/rotate_animation.png" alt="" class="animate-rotate w-full">
+            </div>
+        </div>
+     </section>
+    <!-- photo gallery -->
+
     <!-- body -->
 
     <!-- footer -->
-    <footer class="bg-black pt-[223px]">
-        <div style="background: url(../Images/Footer-bg.png) no-repeat center;" class="main bg-[#000000] pt-[349px] pb-[128px] px-[0px] relative">
+    <footer class="bg-[#040404] pt-[223px]">
+        <div class="main pt-[349px] pb-[128px] px-[0px] relative bg-image bg-cover">
             <div class="top_scroll flex flex-col gap-y-2 items-center absolute top-[173px] right-[120px] z-20">
                 <div class="line">
                     <svg xmlns="http://www.w3.org/2000/svg" width="2" height="61" viewBox="0 0 2 61" fill="none">
@@ -89,7 +199,7 @@
             <div class="">
                 <div class="subscribe absolute top-[1px] left-[50%] translate-x-[-50%] translate-y-[-50%] z-20 px-[252px] py-16 bg-[#0C0C0C] border border-[#dcca8733] border-solid shadow-subs-shadow">
                     <div class="flex flex-col justify-center items-center">
-                        <span class="text-white text-[23px] font-bold leadinng-[130%] tracking-[0.92px] capitalize font-headings">Newsletter</span>
+                        <span class="text-white text-[23px] font-sub font-bold leadinng-[130%] tracking-[0.92px] capitalize">Newsletter</span>
                         <div class="my-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="9" viewBox="0 0 40 9" fill="none">
                             <path d="M33.5016 9C37.0849 9 40 6.98129 40 4.49995C40 2.01861 37.0849 0 33.5016 0C30.1122 0 27.3221 1.80637 27.03 4.1018H22.3529V3.1552L0 3.1552V5.84446L22.353 5.84446V4.89798H27.0301C27.3223 7.19352 30.1122 9 33.5016 9ZM21.4898 5.04839L0.863293 5.04839V3.95161L21.4898 3.95161V5.04839ZM27.8662 4.49995C27.8662 2.45778 30.3944 0.796403 33.5017 0.796403C36.6091 0.796403 39.1372 2.45778 39.1372 4.49995C39.1372 6.54222 36.6091 8.2037 33.5017 8.2037C30.3944 8.2037 27.8662 6.54222 27.8662 4.49995Z" fill="#DCCA87"/>
@@ -108,7 +218,7 @@
                     </div>
                 </div>
                 <div class="index-1 relative z-10">
-                    <div class="menu flex justify-between items-center w-full px-[210px]">
+                    <div class="menu flex justify-between items-center w-full px-[310px]">
                         <div class="left">
                             <ul class="text-center">
                                 <h5 class="text-[32px] leading-[130%] tracking-[1.28px] text-[#F5EFDB] font-sub font-normal capitalize">Contact Us</h5>
@@ -120,7 +230,7 @@
                             </ul>
                         </div>
                         <div class="middle flex flex-col items-center">
-                            <a href="index.html"><img src="../Images/footer_logo.png" alt="footer_logo"></a>
+                            <a href="index.html"><img src="./Images/footer_logo.png" alt="footer_logo"></a>
                             <p class="max-w-[438px] text-center mt-8 mb-4">"The best way to find yourself is to lose yourself in the service of others.”</p>
                             <div class="mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="9" viewBox="0 0 40 9" fill="none">
@@ -154,8 +264,8 @@
      </footer>
     <!-- footer -->
 
-    <script src="../JS/jquery-1.12.4.min.js"></script>
-    <script src="../JS/slick.min.js"></script>
-    <script src="../JS/script.js"></script>
+    <script src="./JS/jquery-1.12.4.min.js"></script>
+    <script src="./JS/slick.min.js"></script>
+    <script src="./JS/script.js"></script>
 </body>
 </html>

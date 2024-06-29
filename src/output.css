@@ -610,8 +610,12 @@ video {
   position: relative;
 }
 
-.left-\[-73px\] {
-  left: -73px;
+.left-0 {
+  left: 0px;
+}
+
+.left-\[-72px\] {
+  left: -72px;
 }
 
 .left-\[100\%\] {
@@ -622,20 +626,32 @@ video {
   left: 106px;
 }
 
+.left-\[197px\] {
+  left: 197px;
+}
+
 .left-\[50\%\] {
   left: 50%;
 }
 
-.right-\[120px\] {
-  right: 120px;
+.left-full {
+  left: 100%;
 }
 
 .right-\[6\%\] {
   right: 6%;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .top-\[100\%\] {
   top: 100%;
+}
+
+.top-\[147px\] {
+  top: 147px;
 }
 
 .top-\[173px\] {
@@ -646,32 +662,12 @@ video {
   top: 1px;
 }
 
-.top-full {
-  top: 100%;
-}
-
-.left-\[-72px\] {
-  left: -72px;
-}
-
 .top-\[50\%\] {
   top: 50%;
 }
 
-.left-\[\] {
-  left: ;
-}
-
-.top-\[147px\] {
-  top: 147px;
-}
-
-.left-\[1px\] {
-  left: 1px;
-}
-
-.left-\[1197px\] {
-  left: 1197px;
+.top-full {
+  top: 100%;
 }
 
 .z-10 {
@@ -722,6 +718,10 @@ video {
 
 .mt-\[80px\] {
   margin-top: 80px;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .block {
@@ -776,6 +776,10 @@ video {
   max-width: 1300px;
 }
 
+.max-w-\[190px\] {
+  max-width: 190px;
+}
+
 .max-w-\[1920px\] {
   max-width: 1920px;
 }
@@ -792,12 +796,9 @@ video {
   max-width: 491px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[190px\] {
-  max-width: 190px;
+.translate-x-\[-31px\] {
+  --tw-translate-x: -31px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .translate-x-\[-50\%\] {
@@ -812,6 +813,11 @@ video {
 
 .translate-y-\[-100\%\] {
   --tw-translate-y: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-\[-20px\] {
+  --tw-translate-y: -20px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -905,6 +911,10 @@ video {
   row-gap: 2rem;
 }
 
+.gap-y-4 {
+  row-gap: 1rem;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -930,11 +940,6 @@ video {
   border-color: #dcca8733;
 }
 
-.bg-\[\#000000\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#0C0B08\] {
   --tw-bg-opacity: 1;
   background-color: rgb(12 11 8 / var(--tw-bg-opacity));
@@ -945,33 +950,12 @@ video {
   background-color: rgb(12 12 12 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.bg-\[\#0c0c0c66\] {
+  background-color: #0c0c0c66;
 }
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#\] {
-  background-color: #;
-}
-
-.bg-\[rgba\(12\2c 11\2c 8\2c 0\.1\)\] {
-  background-color: rgba(12,11,8,0.1);
-}
-
-.bg-\[rgba\(12\2c 11\2c 8\2c 0\.3\)\] {
-  background-color: rgba(12,11,8,0.3);
-}
-
-.bg-\[rgba\(12\2c 11\2c 8\2c 0\.4\)\] {
-  background-color: rgba(12,11,8,0.4);
 }
 
 .bg-image {
@@ -982,11 +966,6 @@ video {
   background-size: cover;
 }
 
-.px-\[0px\] {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .px-\[120px\] {
   padding-left: 120px;
   padding-right: 120px;
@@ -995,11 +974,6 @@ video {
 .px-\[19px\] {
   padding-left: 19px;
   padding-right: 19px;
-}
-
-.px-\[210px\] {
-  padding-left: 210px;
-  padding-right: 210px;
 }
 
 .px-\[252px\] {
@@ -1022,11 +996,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-52 {
-  padding-top: 13rem;
-  padding-bottom: 13rem;
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -1035,6 +1004,10 @@ video {
 .py-\[152px\] {
   padding-top: 152px;
   padding-bottom: 152px;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pb-\[128px\] {
@@ -1049,8 +1022,8 @@ video {
   padding-left: 310px;
 }
 
-.pt-\[223px\] {
-  padding-top: 223px;
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .pt-\[349px\] {
@@ -1109,6 +1082,10 @@ video {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .leading-7 {

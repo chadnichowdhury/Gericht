@@ -690,6 +690,11 @@ video {
   z-index: 30;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -730,6 +735,10 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
 }
 
 .mt-4 {
@@ -788,6 +797,18 @@ video {
   height: 1px;
 }
 
+.h-\[385px\] {
+  height: 385px;
+}
+
+.h-\[566px\] {
+  height: 566px;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -806,6 +827,14 @@ video {
 
 .w-\[47px\] {
   width: 47px;
+}
+
+.w-\[523px\] {
+  width: 523px;
+}
+
+.w-\[634px\] {
+  width: 634px;
 }
 
 .w-auto {
@@ -842,6 +871,14 @@ video {
 
 .max-w-\[491px\] {
   max-width: 491px;
+}
+
+.max-w-\[523px\] {
+  max-width: 523px;
+}
+
+.max-w-\[900px\] {
+  max-width: 900px;
 }
 
 .max-w-full {
@@ -924,6 +961,10 @@ video {
   flex-direction: column;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -940,6 +981,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -952,16 +997,12 @@ video {
   gap: 2rem;
 }
 
-.gap-\[1\] {
-  gap: 1;
+.gap-\[143px\] {
+  gap: 143px;
 }
 
-.gap-\[183p\] {
-  gap: 183p;
-}
-
-.gap-\[183px\] {
-  gap: 183px;
+.gap-\[40px\] {
+  gap: 40px;
 }
 
 .gap-x-16 {
@@ -984,6 +1025,11 @@ video {
        column-gap: 2rem;
 }
 
+.gap-x-\[183px\] {
+  -moz-column-gap: 183px;
+       column-gap: 183px;
+}
+
 .gap-x-\[50px\] {
   -moz-column-gap: 50px;
        column-gap: 50px;
@@ -999,11 +1045,6 @@ video {
 
 .gap-y-8 {
   row-gap: 2rem;
-}
-
-.gap-x-\[183px\] {
-  -moz-column-gap: 183px;
-       column-gap: 183px;
 }
 
 .whitespace-nowrap {
@@ -1098,11 +1139,6 @@ video {
   padding-bottom: 152px;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -1119,6 +1155,10 @@ video {
   padding-bottom: 336px;
 }
 
+.pb-\[373px\] {
+  padding-bottom: 373px;
+}
+
 .pl-\[310px\] {
   padding-left: 310px;
 }
@@ -1133,26 +1173,6 @@ video {
 
 .pt-\[349px\] {
   padding-top: 349px;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pb-\[\] {
-  padding-bottom: ;
-}
-
-.pb-\[502px\] {
-  padding-bottom: 502px;
-}
-
-.pb-\[501px\] {
-  padding-bottom: 501px;
-}
-
-.pb-\[373px\] {
-  padding-bottom: 373px;
 }
 
 .text-center {
@@ -1247,6 +1267,10 @@ video {
 
 .tracking-\[1\.8px\] {
   letter-spacing: 1.8px;
+}
+
+.tracking-\[1\.92px\] {
+  letter-spacing: 1.92px;
 }
 
 .text-\[\#AAA\] {

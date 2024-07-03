@@ -7,7 +7,7 @@ $('.banner_slider').slick({
     fade: true,
     cssEase: 'linear',
     autoplay: true,
-    autoplaySpeed:1500,
+    autoplaySpeed:1900,
     prevArrow:false,
     nextArrow:false,
   });

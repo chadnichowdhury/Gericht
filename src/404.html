@@ -21,48 +21,70 @@
   <!-- google fonts (headings) -->
 
 </head>
-<body class="bg-[#0C0B08]">
-    <div class="primary_layer">
-        <!-- navbar -->
-        <nav>
-            <div class="container max-w-[1920px] px-[120px] py-8 flex justify-center items-center">
-                <div class="flex justify-between w-[100%] items-center">
-                    <div class="logo"><a href="index.html"><img src="./Images/Gerícht-logo.png" alt=""></a></div>
-                    <div class="menu">
-                        <ul class="flex gap-x-8 justify-center items-center font-common text-base leading-7 tracking-[0.64px] text-white">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="contactUs.html">Contact Us</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="#">Landing</a></li>
-                        </ul>
+<body>
+    <!-- navbar -->
+     <nav class="absolute top-[32px] left-0 w-[100%] z-10 ">
+        <div class="navbar  flex justify-center items-center px-[120px] py-8 ">
+            <div class="container flex justify-between w-[100%] items-center">
+                <div class="logo"><a href="index.html"><img src="./Images/Gerícht-logo.png" alt=""></a></div>
+                <div class="menu">
+                    <ul class="flex gap-x-8 justify-center items-center font-common text-base leading-7 tracking-[0.64px] text-white">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Landing</a></li>
+                    </ul>
+                </div>
+                <div class="buttons flex gap-x-[50px] items-center text-white text-base leading-7 font-semibold tracking-[0.8px] capitalize">
+                    <div class="log_ins">
+                        <a href="">log in</a>
+                        <span class="">/</span>
+                        <a href="">registration</a>
                     </div>
-                    <div class="buttons flex gap-x-[50px] items-center text-white text-base leading-7 font-semibold tracking-[0.8px] capitalize">
-                        <div class="log_ins">
-                            <a href="404.html">log in</a>
-                            <span class="">/</span>
-                            <a href="404.html">registration</a>
-                        </div>
-                        <span class="line">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="2" height="57" viewBox="0 0 2 57" fill="none">
-                                <path d="M1 0V57" stroke="url(#paint0_radial_572_127)"/>
-                                <defs>
-                                  <radialGradient id="paint0_radial_572_127" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1.5 28.5) rotate(90) scale(28.5 0.5)">
-                                    <stop offset="0.588542" stop-color="white"/>
-                                    <stop offset="1" stop-color="white" stop-opacity="0"/>
-                                  </radialGradient>
-                                </defs>
-                            </svg>
-                        </span>
-                        <a href="soon.html">Book table</a>
-                    </div>
+                    <span class="line">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2" height="57" viewBox="0 0 2 57" fill="none">
+                            <path d="M1 0V57" stroke="url(#paint0_radial_572_127)"/>
+                            <defs>
+                              <radialGradient id="paint0_radial_572_127" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1.5 28.5) rotate(90) scale(28.5 0.5)">
+                                <stop offset="0.588542" stop-color="white"/>
+                                <stop offset="1" stop-color="white" stop-opacity="0"/>
+                              </radialGradient>
+                            </defs>
+                          </svg>
+                    </span>
+                    <a href="">Book table</a>
                 </div>
             </div>
-        </nav>
-        <!-- navbar -->
+        </div>
+     </nav>
+    <!-- navbar -->
 
-    <script src="../JS/jquery-1.12.4.min.js"></script>
-    <script src="../JS/slick.min.js"></script>
-    <script src="../JS/script.js"></script>
+    <!-- body -->
+     
+     <section id="404-part" class="pt-[220px]  relative  bg-my-bg bg-no-repeat bg-center bg-cover after:contents[''] top-0 left-0 bg-[#040404] ">
+        <div class="container relative mx-auto">
+            <img  class="absolute top-0 right-0 translate-x-[-100%] translate-y-[-100%] w-[146px] h-[146px]" src="./Images/Group 84.png" alt="">
+            <div class="flex flex-col items-center justify-center mx-auto text-center w-[610px] mt-[110px] details" >
+                
+                <img class="mb-4 leading-4 text-[#DCCA87] w-[428px] h-[190px]" src="./Images/404.png" alt="">
+                <img src="./images/404 spoon.png" alt="">
+                <p class="my-8 font-bold font-sub text-[23px] leading-[29.9px] tracking-[0.04em] text-[#FFFFFF] w-[610px]">Oops! The page you are looking for does not exist. It might have been moved or deleted.</p>
+                <a class="px-8 py-2 text-base font-bold leading-7 text-left tracking-[0.04em] text-[#0C0B08] bg-[#DCCA87] font-sub" href="#">Back To Home</a>
+            </div>
+            <img  class="absolute bottom-0  left-0 translate-x-[125%] translate-y-[-150%] h-[146px] w-[146px]" src="./Images/Group 84.png" alt="">
+            
+            <div class="footer-part ">
+                <p class="mt-[235px] py-8  font-common font-normal text-[16px] text-center leading-[175%] tracking-[0.04em] text-[#E5E5E5]">2021 Gerícht. All Rights reserved.</p>
+            </div>
+            
+            
+        </div>        
+     </section>
+    <!-- body -->
+
+    <script src="./JS/jquery-1.12.4.min.js"></script>
+    <script src="./JS/slick.min.js"></script>
+    <script src="./JS/script.js"></script>
 </body>
 </html>
